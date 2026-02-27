@@ -1,0 +1,27 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "A node project for authentication",
+  "homepage": "https://github.com/Priyanshu-2409/FULLSTACK#readme",
+  "bugs": {
+    "url": "https://github.com/Priyanshu-2409/FULLSTACK/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyanshu-2409/FULLSTACK.git"
+  },
+  "license": "ISC",
+  "author": "Priyanshu Mullick",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.2",
+    "nodemon": "^3.1.11"
+  }
+}
